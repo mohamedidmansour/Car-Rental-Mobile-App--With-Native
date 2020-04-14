@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_accueil"
+            android:icon="@drawable/ic_homepage"
+            android:title="@string/txt_Accueil" />
+        <item
+            android:id="@+id/menu_consulter"
+            android:icon="@drawable/ic_consultation"
+            android:title="@string/txt_Consulter" />
+        <item
+            android:id="@+id/menu_mesreservation"
+            android:icon="@drawable/ic_booking"
+            android:title="@string/txt_mesCommande" />
+        <item
+            android:id="@+id/menu_inscrire"
+            android:icon="@drawable/ic_user_add"
+            android:title="@string/inscrire" />
+    </group>
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/menu_contact"
+                android:icon="@drawable/ic_contact"
+                android:title="@string/txt_Contact" />
+            <item
+                android:id="@+id/menu_siteweb"
+                android:icon="@drawable/ic_grid_world"
+                android:title="@string/txt_siteweb" />
+        </menu>
+    </item>
+</menu>

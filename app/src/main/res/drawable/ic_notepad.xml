@@ -1,0 +1,17 @@
+<vector android:height="25dp" android:viewportHeight="59.0"
+    android:viewportWidth="59.0" android:width="25dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#545E73" android:pathData="M34,2l-4,0l0,3l-9,0l0,-3l-4,0l-15,0l0,56l47,0l0,-56z"/>
+    <path android:fillColor="#404656" android:pathData="M21,0h9v5h-9z"/>
+    <path android:fillColor="#EFEBDE" android:pathData="M37,5l0,3l-23,0l0,-3l-9,0l0,50l41,0l0,-50z"/>
+    <path android:fillColor="#8697CB" android:pathData="M30,2l0,3l-9,0l0,-3l-7,0l0,6l23,0l0,-6z"/>
+    <path android:fillColor="#D5D0BB" android:pathData="M24,16H11c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1h13c0.55,0 1,0.45 1,1S24.55,16 24,16z"/>
+    <path android:fillColor="#D5D0BB" android:pathData="M24,47H11c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1h13c0.55,0 1,0.45 1,1S24.55,47 24,47z"/>
+    <path android:fillColor="#D5D0BB" android:pathData="M40,22H11c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1h29c0.55,0 1,0.45 1,1S40.55,22 40,22z"/>
+    <path android:fillColor="#D5D0BB" android:pathData="M40,34H11c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1h29c0.55,0 1,0.45 1,1S40.55,34 40,34z"/>
+    <path android:fillColor="#D5D0BB" android:pathData="M40,41H11c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1h29c0.55,0 1,0.45 1,1S40.55,41 40,41z"/>
+    <path android:fillColor="#D5D0BB" android:pathData="M25,28H11c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1h14c0.55,0 1,0.45 1,1S25.55,28 25,28z"/>
+    <path android:fillColor="#D5D0BB" android:pathData="M40,28h-7c-0.55,0 -1,-0.45 -1,-1s0.45,-1 1,-1h7c0.55,0 1,0.45 1,1S40.55,28 40,28z"/>
+    <path android:fillColor="#D5D0BB" android:pathData="M29,28c-0.27,0 -0.52,-0.1 -0.71,-0.29C28.11,27.52 28,27.26 28,27c0,-0.27 0.1,-0.52 0.29,-0.71c0.38,-0.38 1.04,-0.37 1.42,0C29.9,26.48 30,26.73 30,27c0,0.27 -0.11,0.52 -0.29,0.71C29.52,27.89 29.27,28 29,28z"/>
+    <path android:fillColor="#76C9B0" android:pathData="M46,48m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M52,47h-5v-5c0,-0.55 -0.45,-1 -1,-1s-1,0.45 -1,1v6c0,0.55 0.45,1 1,1h6c0.55,0 1,-0.45 1,-1S52.55,47 52,47z"/>
+</vector>

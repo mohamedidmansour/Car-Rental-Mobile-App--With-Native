@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@color/gris"
+        android:textColor="@color/noirefaible"
+        android:layout_marginBottom="@dimen/layout_marginBottom_trie"
+        android:text="@string/trie_resultat"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/prix_radiobtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/prix" />
+
+        <RadioButton
+            android:id="@+id/note_radiobtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/note" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkbox_triOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/tri_par_ordere_croissant" />
+
+    <Button
+        android:id="@+id/btn_ok_triee"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorTextnodescriptionCdGenaral"
+        android:text="@string/ok" />
+</LinearLayout>

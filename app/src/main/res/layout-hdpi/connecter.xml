@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_layout_connect">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Utilisateur : "
+        android:textColor="@color/noirefaible"
+        android:textSize="@dimen/size_txt_louer_votrevoiture" />
+
+    <EditText
+        android:id="@+id/txt_utilisateur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:drawablePadding="8dp"
+        android:hint="saisir votre login " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Mot de passe : "
+        android:textColor="@color/noirefaible"
+        android:textSize="@dimen/size_txt_louer_votrevoiture" />
+
+    <EditText
+        android:id="@+id/txt_mot_de_passe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="8dp"
+        android:inputType="textPassword"
+        android:hint="saisir votre mot de passe " />
+
+    <Button
+        android:id="@+id/btn_connecter_page_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Connexion"
+        android:textColor="@color/blanc" />
+</LinearLayout>

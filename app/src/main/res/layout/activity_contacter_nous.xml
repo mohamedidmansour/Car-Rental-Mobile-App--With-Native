@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f1f1"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+    <Spinner
+        android:id="@+id/type_erreur_commentaire"
+        android:entries="@array/votreProbleme"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFF"
+        android:hint="Sélectionnez vote qestion"
+        android:paddingLeft="5dp"
+         />
+
+    <EditText
+        android:id="@+id/message_commentaire"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10pt"
+        android:background="#FFF"
+        android:hint="@string/hint"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+         />
+
+    <EditText
+        android:id="@+id/email_commentaire"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5pt"
+        android:background="#ffffff"
+        android:hint="Votre corriel (pour vous répondre)"
+        android:inputType="textMultiLine"
+        android:paddingLeft="5dp"
+         />
+    <Button
+        android:id="@+id/ok_commentaire"
+        android:text="ok"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

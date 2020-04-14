@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mon_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.idmansour.lvoiture.ConditionGeneraleActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/groupe_layout_conditionGen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:text="Assurance vol et dommages"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:inputType="textMultiLine"
+                android:text="@string/assurance"
+                android:textSize="@dimen/txt_size_def" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:text="Franchise"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:inputType="textMultiLine"
+                android:textSize="@dimen/txt_size_def"
+                android:text="@string/franchise" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:text="Caution"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:background="#EEE"
+                android:inputType="textMultiLine"
+                android:text="@string/caution"
+                android:textSize="@dimen/txt_size_def"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:text="Condition générales"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+            <!--************************************************************-->
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Age du conducteur"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:visibility="gone"
+                android:text="@string/age"
+                android:textSize="@dimen/txt_size_def" />
+
+            <TextView
+                android:id="@+id/permis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Permis de conduduire"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_permis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:visibility="gone"
+                android:text="@string/permis"
+                android:textSize="@dimen/txt_size_def"/>
+
+            <TextView
+                android:id="@+id/assurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Assurance"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_assurance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:visibility="gone"
+                android:text="@string/Assurance_vol_et_dommages"
+                android:textSize="@dimen/txt_size_def"/>
+
+            <TextView
+                android:id="@+id/assistance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Assistance dépannage"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_assistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:visibility="gone"
+                android:text="@string/assistance_depannage"
+                android:textSize="@dimen/txt_size_def"/>
+
+            <TextView
+                android:id="@+id/politique"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Politique de carburant"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_politique"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:visibility="gone"
+                android:text="@string/politique_de_carburant"
+                android:textSize="@dimen/txt_size_def"/>
+
+            <TextView
+                android:id="@+id/politique2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Politique kilométrage"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:visibility="gone"
+                android:background="#EEE"
+                android:text="@string/politique_de_kilométrage"
+                android:textSize="@dimen/txt_size_def"/>
+
+            <TextView
+                android:id="@+id/e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="équipements spéciaux/options"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:visibility="gone"
+                android:text="@string/Equipement_spéciaux_options"
+                android:textSize="@dimen/txt_size_def" />
+
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Conditions des supplémentaire"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:text="@string/conditions_des_options"
+                android:textSize="@dimen/txt_size_def" />
+
+            <TextView
+                android:id="@+id/cs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Conducteur supplémentaire"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre"/>
+
+            <TextView
+
+                android:id="@+id/def_cs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:text="@string/conducteur_supplémmentaire"
+                android:textSize="@dimen/txt_size_def" />
+
+            <TextView
+                android:id="@+id/r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Restrictions de voyage"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:text="@string/restrictions_de_voyage"
+                android:textSize="@dimen/txt_size_def" />
+
+            <TextView
+                android:id="@+id/f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Ftais  et taxes "
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:text="@string/frais_et_taxes"
+                android:textSize="@dimen/txt_size_def" />
+
+            <TextView
+                android:id="@+id/pi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Pièce(s) d 'identité"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre"/>
+
+            <TextView
+                android:id="@+id/def_pi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:text="@string/piéce_d_indentité"
+                android:textSize="@dimen/txt_size_def" />
+
+            <TextView
+                android:id="@+id/ty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Type de véhicules "
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre"/>
+
+            <TextView
+                android:id="@+id/def_ty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:text="@string/type_de_véhicule"
+                android:textSize="@dimen/txt_size_def" />
+
+            <TextView
+                android:id="@+id/b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="Bon  de location "
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:text="@string/bon_de_location"
+                android:textSize="@dimen/txt_size_def" />
+
+            <TextView
+                android:id="@+id/i"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:onClick="methodeDropDown"
+                android:text="information sur la caution et les cartes de crédit"
+                android:textColor="@color/colorTextnodescriptionCdGenaral"
+                android:textSize="@dimen/txt_size_titre" />
+
+            <TextView
+                android:id="@+id/def_i"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="@dimen/layout_margin_txt"
+                android:background="#EEE"
+                android:text="@string/information_sur_la_caution_et_les_cartes_de_crédit"
+                android:textSize="@dimen/txt_size_def" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

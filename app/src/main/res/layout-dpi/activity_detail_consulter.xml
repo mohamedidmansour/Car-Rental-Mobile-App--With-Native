@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_detail_totale"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:padding="@dimen/layout_height_detail_totale_padding"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_prix_detail_voiture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:drawableLeft="@drawable/ic_returnar"
+                android:drawablePadding="9dp"
+                android:padding="@dimen/txt_prix_detail_voiture_padding"
+                android:text="Total: 150 MAD"
+                android:textColor="@color/blanc"
+                android:textSize="@dimen/txt_prix_detail_voiture_sizetxt" />
+
+            <Button
+                android:id="@+id/btn_ajouter_maps_voiture"
+                android:layout_width="@dimen/btn_ajouter_maps_voiture_wi_height"
+                android:layout_height="@dimen/btn_ajouter_maps_voiture_wi_height"
+                android:layout_weight="1"
+                android:background="@drawable/stylebtn_circle"
+                android:drawableLeft="@drawable/ic_place_black_24dp"
+                android:paddingLeft="@dimen/btn_ajouter_maps_voiture_paddingleft" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/scroll_padding">
+
+                <TextView
+                    android:id="@+id/txt_nom_voiture_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:text="Volkswagen POLO ou éqivalent"
+                    android:textSize="@dimen/size_titre" />
+
+                <ImageView
+                    android:id="@+id/image_voiture_datail"
+                    android:layout_width="@dimen/image_voiture_datail_width"
+                    android:layout_height="@dimen/image_voiture_datail_height"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/image_voiture_datail_marginTop" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_marginTop_linoption"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/txt_nb_personne_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/ic_person_black_24dp"
+                        android:gravity="center"
+                        android:text="5 persson...." />
+
+                    <TextView
+                        android:id="@+id/txt_nb_porte_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/ic_car"
+                        android:gravity="center"
+                        android:text="4 port...." />
+
+                    <TextView
+                        android:id="@+id/txt_clima_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableTop="@drawable/ic_air_conditioning"
+                        android:gravity="center"
+                        android:text="avec" />
+
+                    <TextView
+                        android:id="@+id/txt_nb_total_carateristique"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="textMultiLine"
+                        android:text="  +6 option(s)"
+                        android:textColor="@color/orangefaible"
+                        android:textSize="@dimen/txt_nb_total_carateristique_txtSize"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/gris" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_marginTop_note_and_prix"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/txt_note_detail"
+                        android:layout_width="@dimen/txt_note_detail_width"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/layout_style"
+                        android:drawableLeft="@drawable/ic_star_black_24dp"
+                        android:drawablePadding="3dp"
+                        android:text="Note:10/10" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_prix_listview_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="150,15DH/jour"
+                            android:textColor="@color/noirefaible"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:drawableLeft="@drawable/ic_price"
+                            android:text="Prix total" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/layout_margin_annulation"
+                    android:background="#e82a9140"
+                    android:drawableLeft="@drawable/check_cir_blanc"
+                    android:drawablePadding="5dp"
+                    android:inputType="textMultiLine"
+                    android:padding="@dimen/paddingannulation"
+                    android:text="Annulation gratuite jusqu'à 24heurs avant le retrait"
+                    android:textColor="@color/blanc"
+                    android:textSize="@dimen/txtsize_annulation" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/layout_marginBottom_caracteristique"
+                    android:drawableLeft="@drawable/ic_warning_black_24dp"
+                    android:drawablePadding="8dp"
+                    android:text="@string/caract_ristiques"
+                    android:textColor="@color/rouge"
+                    android:textSize="@dimen/txtsize_caracteristique" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_style"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/paddingCaraTitre"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_fuel_service"
+                        android:drawablePadding="5dp"
+                        android:inputType="textMultiLine"
+                        android:text="politique de carburant : " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:inputType="textMultiLine"
+                        android:text="Plein à restituer plein" />
+                </LinearLayout>
+                <!--descp-->
+                <TextView
+                    android:id="@+id/txt_politiquecarburant_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:text="C'est la meillieure solution carburant .La voiture vous est fournie avec le réservoir plein .Il vous suffit de restituer ce véhicule en ayant fait le plein pour éviter des frais de ravitaillemnt" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_style"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/paddingCaraTitre"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_speed_meter"
+                        android:drawablePadding="5dp"
+                        android:inputType="textMultiLine"
+                        android:text="Franchise de Kilométrage : " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:inputType="textMultiLine"
+                        android:text="ILLimité" />
+                </LinearLayout>
+                <!--descp-->
+                <TextView
+                    android:id="@+id/txt_franchaisekilometrage_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:text="La distance parcourue est illimitée pour cette voiture" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_style"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/paddingCaraTitre"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/ic_security_black_24dp"
+                        android:drawablePadding="5dp"
+                        android:inputType="textMultiLine"
+                        android:text="Assurance : " />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:inputType="textMultiLine"
+                        android:text="Couverture de base" />
+                </LinearLayout>
+                <!--descp-->
+                <TextView
+                    android:id="@+id/txt_assurance_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:text="Protection limitée contre les dommages" />
+
+                <TextView
+                    android:id="@+id/btn_plus_info_detailvoiture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/btn_plus_info_detailvoiture_margTop"
+                    android:drawableLeft="@drawable/ic_plusinfo"
+                    android:drawablePadding="5dp"
+                    android:paddingLeft="@dimen/btn_plus_info_detailvoiture_margTop"
+                    android:text="@string/plus_informations"
+                    android:textColor="@color/colorTextnodescriptionCdGenaral" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/gris" />
+
+                <Button
+                    android:id="@+id/btn_suivant_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/btn_suivant_detail_margTop"
+                    android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:text="commander"
+                    android:textColor="@color/noirefaible" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
+

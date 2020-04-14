@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/styleborder"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_filtrer_consulter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_filter_list_black_24dp"
+            android:text="Filtre"
+            android:textSize="@dimen/txt_btn_size" />
+
+        <Button
+            android:id="@+id/btn_tri_consulter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_marginLeft_btn"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_sort_black_24dp"
+            android:text="Trier"
+            android:textSize="@dimen/txt_btn_size" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin_annulation"
+        android:background="#e82a9140"
+        android:drawableLeft="@drawable/check_cir_blanc"
+        android:drawablePadding="5dp"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/paddingannulation"
+        android:text="@string/annulation_gratuite_pour_toutes_les_voitures"
+        android:textColor="@color/blanc"
+        android:textSize="@dimen/txtsize_annulation" />
+
+    <TextView
+        android:id="@+id/txt_nb_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_marginLeft_txt_resulat"
+        android:drawableLeft="@drawable/ic_build_black_24dp"
+        android:drawablePadding="10dp"
+        android:inputType="textMultiLine"
+        android:text="0 voitures disponibles | Trie par : Recommandé" />
+
+    <ListView
+        android:id="@+id/liste_voiture_consulter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/layout_marginTop_consulterlistview" />
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_layout_connect">
+
+    <ProgressBar
+        android:id="@+id/progresse_etap"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txt_etap_progresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="Etape 0/3"
+        android:textColor="@color/colorTextnodescriptionCdGenaral"
+        android:textSize="@dimen/size_txt_louer_votrevoiture" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/layout_margintop_inforpro"
+            android:orientation="vertical">
+            <!--Etap1-->
+            <LinearLayout
+                android:id="@+id/layout_etap1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/txt_cin_client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Cin ou numero passport" />
+
+                <EditText
+                    android:id="@+id/txt_nom_client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nom complete" />
+
+                <EditText
+                    android:id="@+id/txt_adresse_client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Votre adresse"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/txt_ville_client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Votre ville" />
+
+                <EditText
+                    android:id="@+id/txt_codepostal_client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Code postal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txt_email_client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Votre email ex:(loca.j@gmail.com)"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/txt_tel_client"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Votre numero de telephonne"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+            <!--Etap2-->
+            <LinearLayout
+                android:id="@+id/layout_etap2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:visibility="gone">
+
+                <Spinner
+                    android:id="@+id/sexe_inscrire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/sexeListe" />
+
+                <EditText
+                    android:id="@+id/txt_login_inscrire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Choisir votre login"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/txt_mot_de_passe_inscrire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Votre mot de passe"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/txt_mot_de_passe_confirmation_inscrire_inscrire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirmer mot de passe"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+            <!--Etap3-->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_resultat_creation_compte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine" />
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_precedent_page_inscrire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/colorTextnodescriptionCdGenaral"
+                    android:text="precedent"
+                    android:textColor="@color/blanc" />
+
+                <Button
+                    android:id="@+id/btn_suivant_page_inscrire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorTextnodescriptionCdGenaral"
+                    android:text="suivant"
+                    android:textColor="@color/blanc" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

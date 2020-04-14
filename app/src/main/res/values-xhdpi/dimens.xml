@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_activitySplash">25dp</dimen>
+    <dimen name="margin_txt_gifSplash">50dp</dimen>
+    <dimen name="logo_menu_width">100dp</dimen>
+    <dimen name="logo_menu_height">100dp</dimen>
+    <dimen name="logo_margin_top">10dp</dimen>
+    <dimen name="sizetxt_splash">15pt</dimen>
+    <dimen name="size_txt_louer_votrevoiture">19dp</dimen>
+    <dimen name="height_logo_width">90dp</dimen>
+    <dimen name="marginTop_logo">25dp</dimen>
+    <!--Connecter-->
+    <dimen name="padding_layout_btn_acceuil">70dp</dimen>
+
+    <dimen name="padding_layout_connect">10dp</dimen>
+    <dimen name="layout_margintop_inforpro">20dp</dimen>
+    <!--********************************dim item***********-->
+    <dimen name="longeur_item">240dp</dimen>
+    <dimen name="size_titre">9pt</dimen>
+    <dimen name="btn_detail_mgleft">15dp</dimen>
+    <dimen name="btn_detail_padleft">10dp</dimen>
+    <dimen name="txt_size_reserve_non">8pt</dimen>
+    <dimen name="layout_marginTop_content">8dp</dimen>
+    <dimen name="paddingTop_content">5dp</dimen>
+    <dimen name="layout_marginLeft_item1_content">10dp</dimen>
+    <dimen name="margTop_item1_ele1">5dp</dimen>
+    <dimen name="layout_marginLeft_item2">20dp</dimen>
+    <dimen name="layout_height_image_voiture">90dp</dimen>
+    <dimen name="layout_marginRight_image_voiture">10dp</dimen>
+    <dimen name="layout_marginTop_txt_prix">15dp</dimen>
+    <dimen name="layout_marginRight_txt_prix">15dp</dimen>
+    <dimen name="layout_marginTop_txt_prixTotale">3dp</dimen>
+    <dimen name="layout_marginRight_txt_prixTotale">15dp</dimen>
+    <!-- */****************************** recherche**************/* -->
+    <dimen name="padding_recherche">20dp</dimen>
+    <dimen name="drawablePadding_txt_Attention">10dp</dimen>
+    <dimen name="txt_size_Attention">8pt</dimen>
+    <dimen name="layout_marginTop_txt_choisser">40dp</dimen>
+    <dimen name="drawablePadding_txt_choisser">5dp</dimen>
+    <dimen name="padding_lin_item1">5dp</dimen>
+    <dimen name="txt_item_size">8pt</dimen>
+    <dimen name="layout_marginBottom_txt_item">10dp</dimen>
+    <dimen name="layout_marginTop_txt_heure">30dp</dimen>
+    <dimen name="layout_marginLeft_item2_activity_reche">5dp</dimen>
+    <dimen name="layout_margin_checkConducteur">15dp</dimen>
+    <!-- */****************************** accueil**************/* -->
+    <dimen name="padding_header_accueil">15dp</dimen>
+    <dimen name="img_logo_height_width">75dp</dimen>
+    <dimen name="layout_marginLeft_titre_accueil">10dp</dimen>
+    <dimen name="layout_marginTop_titre_accueil">10dp</dimen>
+    <dimen name="textSize_titre">22sp</dimen>
+    <dimen name="textSize_mini_titre">17sp</dimen>
+    <dimen name="layout_marginLeft_txt_second_titre">15dp</dimen>
+    <dimen name="txt_size_second_titre">20sp</dimen>
+    <dimen name="layout_marginTop_titre_tr">30dp</dimen>
+    <dimen name="txt_size_titre_tr">18sp</dimen>
+    <dimen name="layout_marginLeft_option1">40dp</dimen>
+    <dimen name="layout_marginTop_option1">10dp</dimen>
+    <dimen name="textSize_option">20sp</dimen>
+    <dimen name="drawablePadding_option">20dp</dimen>
+    <dimen name="layout_marginTop_btn_consulter_acceuil">10dp</dimen>
+    <dimen name="height_btn_consulter_acceuil">58dp</dimen>
+
+    <!--**********************ConditionGenerale********************-->
+    <dimen name="layout_margin_txt">6dp</dimen>
+    <dimen name="txt_size_titre">17sp</dimen>
+    <dimen name="txt_size_def">15sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">23dp</dimen>
+    <dimen name="nav_header_vertical_spacing">5dp</dimen>
+    <dimen name="nav_header_height">100dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="paddingRight_heder_nav">90dp</dimen>
+    <!--tri-->
+    <dimen name="layout_marginBottom_trie">15dp</dimen>
+    <!--Consulter-->
+    <dimen name="padding">5dp</dimen>
+    <dimen name="txt_btn_size">6pt</dimen>
+    <dimen name="layout_marginLeft_btn">5dp</dimen>
+    <dimen name="layout_margin_annulation">19dp</dimen>
+    <dimen name="paddingannulation">7dp</dimen>
+    <dimen name="txtsize_annulation">7pt</dimen>
+    <dimen name="layout_marginLeft_txt_resulat">10dp</dimen>
+    <dimen name="layout_marginTop_consulterlistview">5dp</dimen>
+
+
+    <!--Détail de consulter-->
+    <dimen name="layout_height_detail_totale">50dp</dimen>
+    <dimen name="layout_height_detail_totale_padding">5dp</dimen>
+    <dimen name="txt_prix_detail_voiture_padding">3dp</dimen>
+    <dimen name="txt_prix_detail_voiture_sizetxt">9pt</dimen>
+    <dimen name="btn_ajouter_maps_voiture_wi_height">35dp</dimen>
+    <dimen name="btn_ajouter_maps_voiture_paddingleft">5dp</dimen>
+    <dimen name="scroll_padding">10dp</dimen>
+    <dimen name="image_voiture_datail_width">230dp</dimen>
+    <dimen name="image_voiture_datail_height">120dp</dimen>
+    <dimen name="image_voiture_datail_marginTop">10dp</dimen>
+    <dimen name="layout_marginTop_linoption">20dp</dimen>
+    <dimen name="txt_nb_total_carateristique_txtSize">23sp</dimen>
+    <dimen name="layout_marginTop_note_and_prix">15dp</dimen>
+    <dimen name="txt_note_detail_width">30dp</dimen>
+    <dimen name="layout_marginBottom_caracteristique">15dp</dimen>
+    <dimen name="txtsize_caracteristique">9pt</dimen>
+    <dimen name="paddingCaraTitre">5dp</dimen>
+    <dimen name="btn_plus_info_detailvoiture_margTop">10dp</dimen>
+    <dimen name="btn_suivant_detail_margTop">10dp</dimen>
+
+</resources>

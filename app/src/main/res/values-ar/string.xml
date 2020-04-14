@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name"><b>كراء السيارات</b></string>
+    <string name="txt_splash">s\'il vous plaît attendez.......</string>
+    <string name="txt_Accueil">Accueil</string>
+    <string name="txt_Louer">Louer une voiture</string>
+    <string name="txt_Consulter">Consulter les voitures</string>
+    <string name="txt_mesCommande">Mes Commandes</string>
+    <string name="txt_Contact">Contacter nous</string>
+    <string name="txt_email_header_menu">idman.g@gmail.com</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="louer_votrevoiture"><u>Louer Votre Voiture en tout sécurité</u></string>
+</resources>

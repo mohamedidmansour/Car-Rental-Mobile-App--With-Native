@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--android:background="#05377E"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--#05377E-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_header_accueil">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_marginLeft_titre_accueil"
+                android:layout_marginTop="@dimen/layout_marginTop_titre_accueil"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location_voiture"
+                    android:textColor="@color/colorTxtActivityAccueil"
+                    android:textSize="@dimen/textSize_titre" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/marrakech"
+                    android:textColor="@color/colorTxtActivityAccueil"
+                    android:textSize="@dimen/textSize_mini_titre" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_marginLeft_txt_second_titre"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="@string/meilleures_offres_de_location_de_voiture"
+            android:textColor="@color/colorTxtActivityAccueil"
+            android:textSize="@dimen/txt_size_second_titre" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_marginTop_titre_tr"
+            android:gravity="center"
+            android:text="@string/la_fa_on_intelligente"
+            android:textColor="@color/colorTxtActivityAccueil"
+            android:textSize="@dimen/txt_size_titre_tr" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_marginLeft_option1"
+            android:layout_marginTop="@dimen/layout_marginTop_option1"
+            android:drawableLeft="@drawable/ic_check_circle_black_24dp"
+            android:drawablePadding="@dimen/drawablePadding_option"
+            android:text="@string/pas_de_frais_cach"
+            android:textColor="@color/colorTxtActivityAccueil"
+            android:textSize="@dimen/textSize_option" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_marginLeft_option1"
+            android:layout_marginTop="@dimen/layout_marginTop_option1"
+            android:drawableLeft="@drawable/ic_check_circle_black_24dp"
+            android:drawablePadding="@dimen/drawablePadding_option"
+            android:text="@string/comparaison_de_prix"
+            android:textColor="@color/colorTxtActivityAccueil"
+            android:textSize="@dimen/textSize_option" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_marginLeft_option1"
+            android:layout_marginTop="@dimen/layout_marginTop_option1"
+            android:drawableLeft="@drawable/ic_check_circle_black_24dp"
+            android:drawablePadding="@dimen/drawablePadding_option"
+            android:text="@string/meilleures_affaires"
+            android:textColor="@color/colorTxtActivityAccueil"
+            android:textSize="@dimen/textSize_option" />
+
+        <Button
+            android:id="@+id/btn_consulter_accueil"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_btn_consulter_acceuil"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/layout_marginTop_btn_consulter_acceuil"
+            android:textColor="@color/colorTxtActivityAccueil"
+            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:text="@string/txt_Consulter" />
+    </LinearLayout>
+
+</LinearLayout>

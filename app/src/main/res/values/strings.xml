@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">Location Voiture</string>
+    <string-array name="sexeListe">
+        <item>--choisir votre sexe--</item>
+        <item>Homme</item>
+        <item>Femme</item>
+    </string-array>
+    <string-array name="votreProbleme">
+        <item>---Selectionne votre probleme---</item>
+        <item>Erreur de Temps</item>
+        <item>Erreur de plokage</item>
+        <item>Autre.......</item>
+    </string-array>
+    <string name="hint">
+         Ecrire vos commentaire ici,fournissez autant de détails que possible (suttout si vous  allez-
+         signaler un bug)
+    </string>
+    <string name="txt_splash">s\'il vous plaît attendez.......</string>
+    <string name="txt_Accueil">Accueil</string>
+    <string name="txt_Louer">Louer une voiture</string>
+    <string name="txt_Consulter">Consulter les voitures</string>
+    <string name="txt_mesCommande">Mes ٌReservations</string>
+    <string name="txt_Contact">Contacter nous</string>
+    <string name="txt_email_header_menu">TIB@gmail.com</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="louer_votrevoiture">Louer Facilement Votre Voiture</string>
+    <string name="connecter">Se connecter</string>
+    <string name="inscrire">Créer compte</string>
+    <string name="info_professionnel">Compte</string>
+    <string name="info_secondaire"><u>Info Secondaire</u></string>
+    <string name="txt_siteweb">Site web</string>
+    <string name="informationImportante">information importante</string>
+    <string name="txt_recherchervoiture">recherche voiture</string>
+    <!--******************************CONDITION GENERALE DE LOCATION *************************************-->
+    <string name="Assurance_vol_et_dommages">
+        l\'exonération des dommages par collisio et lassurance en cas de vol sont incluses pour cette voiture. celle-ci couvre les dommages et le vol
+        du véhucule à l\'exception des dommages ou de la perte de pneus pare-brises vitres et chassis.
+    </string>
+    <string name="franchise">
+        la voiture a une franchise pour les dommages de MAD 1700.0 (taxes incluses) et pour les vols de MAD 1700.0(Taxes incluses) veillez a ce que
+        le montant de la franchise soit disponible sur votre carte au moment du retrait la voiture
+    </string>
+    <string name="caution">
+        le fournisseur  damander le dépot d\'une caution de MAD 1700.0au moment de ratrait.cette caution
+        est une garantie  retenue sur la carte de crédit en cas de dommages ou ded vol du véhicule.Elle sera automatiquement annulée
+        en l\absence de vol ou de dommager pendant la période de location
+
+    </string>
+    <string name="age">
+        age jeune conducteur de 23 à 24 ans tarif 100 MAD par jour .(Taxes incluses )
+        les clients ne se situant pas dans les limites d\age ne pourront pas louer de voiture sauf si des frais jeune
+        conducteur ou conducteur senoir sont précises dans cette section .veillez noter que ,le cas échéant ,ces frais
+        seront inclus dans le prix de la location et a régier dans la devise locale a l\arrivée de location
+    </string>
+    <string name="permis">
+        un permis de conduire d\au moins 1 ans sans infractions majeures .les titulaire d\'un  permis de conduire vritanique doivent présenter la carte avec
+        photographie
+        un permis de conduire international est exigé.le permis de coduire international doit etre accompagne du permis
+        national du conducteur
+    </string>
+    <string name="assurance">
+        assurance complément en cas d accident : cmprende la taxe de 20%;
+        Franchise 16,000 MAD
+        Mitigation des excés de dommages 170 MAD par joiur .Comprend la taxe de 20% franchise  3,500 MAD
+        Assurance contre le vol :Comprend la taxe de 20%
+
+        La responsabilité franchise est la somme définie par la fournisseurde voiture de location à votre  charge
+        en cas de   dommages ou dee vol du véhicule ;Les dommages ou la perte des pneus ,du pare-brise ,des vitres ou
+        du chàssis peuvent ne pes etre couverts par la CDW (assurance dommages en cas le collision ) Veuilez vous reseigner
+        auprés de l agence de location
+
+        si vous souscrivez l assurance remboursement de franchise auprèd d\un organisme tiers,le làgence de location pour que la caution puisse etre autorisée
+
+    </string>
+    <string name="assistance_depannage">
+        Comprend la taxe de 20%
+    </string>
+    <string name="politique_de_carburant">
+        Quart au quart
+        le véhicule vous est fourni avec du carburant .Afin d\éviter des frais  de carburant suplémentaires,vous devres restituer le véhicule
+        avec le méme volume de carburant qu\'à son retrait .ll peut vous etre demandé de laisser une caution pour la carburant sur votre carte de crédit
+        cette caution sera débloquée lorsque vous restituerez le véhicule avec le volume de carburant  demandé .lecarburant manquant vous sera facturé lors de la  restitition .
+        le prix au litre facturé par l\'agence  de location peut etre beaucoup plus élevé que  le prix affiché dans la station-service location .Des frais  de ravitailement en
+        carburant peuvent etre appliques.
+        Les frais de carburant sont à régler au guichet de l\'agence de location ,sauf mention contraire dans la partie supérieur de tarif détaillé
+    </string>
+    <string name="politique_de_kilométrage">
+        Illimité
+    </string>
+    <string name="Equipement_spéciaux_options">
+        Rehasseur:60 MAD par jour maximun,comprend la taxede 20%;sur demande.
+
+        siége enfant:60 MAD par jour ,600 MAD maximun .Comprend la taxe de 20%; sur demande
+        siège bébé:60 MAD par jour 600 MAD maximun,Comprend la taxe de 20%; sur demande
+
+        GPS:80 MAD par jour ,800 MAD maximun ,Comprend la taxe de 20%;sur demande
+
+        Les équipements spéciaux  et options peuvent etre demandes durant le processus de réservation,mais ils ne seront pas inclus dand le tarif de location ,Ces
+        équipements et options sont à régier dand la devise du pays au guichet dee l\'agence de location.
+    </string>
+    <string name="conditions_des_options">
+        Veuillez  notre  les points suivants: Les prix des options sont susceptibles d\'etre modifiés sans préavis.Les  frais régies à l\'agence sont susceptibles d\'étre soumis à des surtaxes locales
+    </string>
+    <string name="conducteur_supplémmentaire">
+        4 conducteur supplémentaires maximun 275 MAD Comprend la taxe de 20%
+    </string>
+    <string name="restrictions_de_voyage">
+        Les franchissements de pays,d\'états et diles ne sont pas autorisés.
+    </string>
+    <string name="Montant_de_taxe">
+        20%
+        Inclus dans le tarif de location ;
+    </string>
+    <string name="montant_de_taxe">
+        20%
+        Inclus dand de location
+    </string>
+    <string name="frais_et_taxes">
+        Taxe environnementale:Comprend la taxe de 20%
+        Frais d\'aéroportuaires:Comprend la taxe de 20%
+    </string>
+    <string name="piéce_d_indentité">
+        Une pièce d\'identité valide (passeport ou carte d\ identité)
+    </string>
+    <string name="type_de_véhicule">
+        Le véhicule présenté et les modèles listés sont les véhicules les plus courants proposés par nos partenaires de location
+        de voiture ,Nous ne pouvous garantir que la marque ou le modèle du véhicule de location sera identique à ce qui est affiché sur notre
+        site internet
+    </string>
+    <string name="bon_de_location">
+        Une copie imprimée de votre bon de location dit etre présentée  à  votre arrivée à l\'agence de location .La non-présentation du bon de location peut
+        entrainer l\'application des tarif locaux de la part de l\agence de location .
+        Veuillez notre que :nous déclinous  toute responsabilité eb cas  de l\'application de fais supplémentaires pour des location lorsque le bon de location  n\a
+        pas éte présenté à l\égence de location lors de la prise en charge du véhicule .si vois ne présentez pas lez les documents obligatoires,si la
+        documentation n\'est pas valide ou si  votre carte de crédit n\est pas  suffisamment approvisinnée,l\agence de location de voiture
+        peut refuser de vos remetter le véhicule et aucune somme ne vous sera remboursée.
+    </string>
+    <string name="information_sur_la_caution_et_les_cartes_de_crédit">
+        ACCEPTées:Diners club , MasterCard (excluant les cartes de débit ou prépayées )Visa (excluant les cartes de ou prépayées)
+        NON ACCEPTes :Aucun  autre type de paiement ne sera accepté.
+
+        Important:seules les cartes de créditt sont acceptées .Veuillez contacter votre banque pour vous assurer que votre carte de crédit est bien une carte de crédit
+        et non  pas uen carte de débit.
+        une carte de crédit valide  au nom et prénom du conducteur principale doit étre présentée à l\'agence  de location afin de préautoriser:débitter ine caution PIN peut etre requis.
+
+
+        si vous  ne présentez pas de carte de crédit valide ,Si votre provision est insuffisante ou si  la carte de crédit n\'eqt au nom et prénom du conducteur principale
+        L\'agence de location de voiture peut refuser de vous remettre le véhicule ,Dans ce cas aycun paiment déjà effecué ne sera remboursé
+
+    </string>
+    <!--fin condition-->
+    <string name="txt_retoureraumeme"><u>ATTENTION</u> : Les Voitures Louers doit etre retourner au meme endroit</string>
+    <string name="txtConditionGeneral">Condition Generale</string>
+    <string name="location_voiture">Location Voiture</string>
+    <string name="marrakech">Marrakech</string>
+    <string name="meilleures_offres_de_location_de_voiture">Meilleures offres de location de voiture</string>
+    <string name="la_fa_on_intelligente">la façon intelligente et facile de louer une voiture dans le monde entier</string>
+    <string name="pas_de_frais_cach">Pas de frais cachés</string>
+    <string name="comparaison_de_prix">comparaison de prix</string>
+    <string name="meilleures_affaires">Meilleures affaires</string>
+    <string name="txt_detail">Détail</string>
+    <string name="txt_Voiture">Consulter</string>
+    <string name="txt_Connecter">Connexion</string>
+    <string name="choisissez_l_heure">Choisissez l\'heure qui vous convient le mieux</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="autodrive_com"><u>AUTODRIVE.com</u></string>
+
+    <!--/***************** TRI**************************************/-->
+    <string name="prix">PRIX</string>
+    <string name="note">NOTE</string>
+    <string name="tri_par_ordere_croissant">Tri par ordere croissant (par default)</string>
+    <string name="trie_resultat">Trieé resultat par : </string>
+    <string name="ok">ok</string>
+    <string name="erreurConnection">Erreur. Veuillez réessayer ultérieurement.</string>
+    <string name="filtrer_resultat">filtrer resultat par (Qualité)</string>
+    <string name="moyenne">Moyenne</string>
+    <string name="luxe">Luxe</string>
+    <string name="chargement">Chargement......</string>
+    <string name="caract_ristiques"><u>Caractéristiques :</u></string>
+    <string name="plus_informations"><u>plus informations</u></string>
+    <string name="annulation_gratuite_pour_toutes_les_voitures">Annulation gratuite pour toutes les voitures</string>
+    <string name="verifier_les_champs_fome">Vérifier les champs!!!!!</string>
+    <string name="title_activity_maps">"Position "</string>
+</resources>
